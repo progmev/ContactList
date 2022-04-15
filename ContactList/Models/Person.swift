@@ -6,31 +6,7 @@
 //
 
 import Foundation
-import UIKit
 
-struct Person {
-    var name: String
-    var surname: String?
-    var phone: String
-    let date = Date()
-    
-    var imageData: Data?
-    
-    init(name: String, phone: String, imageData: Data? = nil) {
-        self.name = name
-        self.phone = phone
-        self.imageData = imageData
-    }
-    
-    init(name: String, surname: String, phone: String, imageData: Data? = nil) {
-        self.name = name
-        self.surname = surname
-        self.phone = phone
-        self.imageData = imageData
-    }
-}
-
-/*
 struct Person {
 
     var name: String
@@ -60,4 +36,3 @@ struct Person {
         date = Date()
     }
 }
- */
