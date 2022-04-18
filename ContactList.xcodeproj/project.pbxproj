@@ -12,10 +12,17 @@
 		2DB2918E2614C18B00165913 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DB2918C2614C18B00165913 /* Main.storyboard */; };
 		2DB291902614C18C00165913 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DB2918F2614C18C00165913 /* Assets.xcassets */; };
 		2DB291932614C18C00165913 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DB291912614C18C00165913 /* LaunchScreen.storyboard */; };
-		2DB2919E2614C18C00165913 /* ContactListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB2919D2614C18C00165913 /* ContactListTests.swift */; };
 		2DB291A92614C18C00165913 /* ContactListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB291A82614C18C00165913 /* ContactListUITests.swift */; };
 		2DB291C72614C20000165913 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB291C62614C20000165913 /* Person.swift */; };
 		2DB291D02614C27900165913 /* PersonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB291CF2614C27900165913 /* PersonTests.swift */; };
+		2DC20D16280A012500C7F90A /* PersonsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC20D15280A012500C7F90A /* PersonsManager.swift */; };
+		2DC20D2A280A06BA00C7F90A /* PersonManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC20D29280A06BA00C7F90A /* PersonManagerTests.swift */; };
+		2DC20D2E280A074500C7F90A /* ContactListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC20D2D280A074500C7F90A /* ContactListViewControllerTests.swift */; };
+		2DC20D30280A076100C7F90A /* ContactListDataSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC20D2F280A076100C7F90A /* ContactListDataSourceTests.swift */; };
+		2DC20D32280A077E00C7F90A /* DetailViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC20D31280A077E00C7F90A /* DetailViewControllerTests.swift */; };
+		2DC20D34280A079B00C7F90A /* NewContactViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC20D33280A079B00C7F90A /* NewContactViewControllerTests.swift */; };
+		2DC20D36280A07BD00C7F90A /* ContactCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC20D35280A07BD00C7F90A /* ContactCellTests.swift */; };
+		2DC20D39280A07E900C7F90A /* ContactListAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC20D38280A07E900C7F90A /* ContactListAppTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,13 +51,20 @@
 		2DB291922614C18C00165913 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DB291942614C18C00165913 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DB291992614C18C00165913 /* ContactListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2DB2919D2614C18C00165913 /* ContactListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListTests.swift; sourceTree = "<group>"; };
 		2DB2919F2614C18C00165913 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DB291A42614C18C00165913 /* ContactListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DB291A82614C18C00165913 /* ContactListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListUITests.swift; sourceTree = "<group>"; };
 		2DB291AA2614C18C00165913 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DB291C62614C20000165913 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		2DB291CF2614C27900165913 /* PersonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTests.swift; sourceTree = "<group>"; };
+		2DC20D15280A012500C7F90A /* PersonsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsManager.swift; sourceTree = "<group>"; };
+		2DC20D29280A06BA00C7F90A /* PersonManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonManagerTests.swift; sourceTree = "<group>"; };
+		2DC20D2D280A074500C7F90A /* ContactListViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListViewControllerTests.swift; sourceTree = "<group>"; };
+		2DC20D2F280A076100C7F90A /* ContactListDataSourceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListDataSourceTests.swift; sourceTree = "<group>"; };
+		2DC20D31280A077E00C7F90A /* DetailViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewControllerTests.swift; sourceTree = "<group>"; };
+		2DC20D33280A079B00C7F90A /* NewContactViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewContactViewControllerTests.swift; sourceTree = "<group>"; };
+		2DC20D35280A07BD00C7F90A /* ContactCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCellTests.swift; sourceTree = "<group>"; };
+		2DC20D38280A07E900C7F90A /* ContactListAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListAppTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				2DB291C52614C1EB00165913 /* Models */,
+				2DC20D14280A011200C7F90A /* Managers */,
 				2DB291C42614C1D600165913 /* Views */,
 				2DB291BB2614C1B000165913 /* Controllers */,
 				2DB291C32614C1C800165913 /* Sourse */,
@@ -115,7 +130,9 @@
 			isa = PBXGroup;
 			children = (
 				2DB291CE2614C25200165913 /* Models */,
-				2DB2919D2614C18C00165913 /* ContactListTests.swift */,
+				2DC20D28280A06A100C7F90A /* Managers */,
+				2DC20D2B280A070400C7F90A /* ViewControllers */,
+				2DC20D37280A07D500C7F90A /* Supports */,
 				2DB2919F2614C18C00165913 /* Info.plist */,
 			);
 			path = ContactListTests;
@@ -133,6 +150,9 @@
 		2DB291BB2614C1B000165913 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				2DC20D21280A03F200C7F90A /* ContactList */,
+				2DC20D27280A048100C7F90A /* NewContact */,
+				2DC20D26280A047700C7F90A /* Detail */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -177,6 +197,71 @@
 				2DB291CF2614C27900165913 /* PersonTests.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		2DC20D14280A011200C7F90A /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				2DC20D15280A012500C7F90A /* PersonsManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		2DC20D21280A03F200C7F90A /* ContactList */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ContactList;
+			sourceTree = "<group>";
+		};
+		2DC20D26280A047700C7F90A /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		2DC20D27280A048100C7F90A /* NewContact */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NewContact;
+			sourceTree = "<group>";
+		};
+		2DC20D28280A06A100C7F90A /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				2DC20D29280A06BA00C7F90A /* PersonManagerTests.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		2DC20D2B280A070400C7F90A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2DC20D2C280A071000C7F90A /* ContactList */,
+				2DC20D31280A077E00C7F90A /* DetailViewControllerTests.swift */,
+				2DC20D33280A079B00C7F90A /* NewContactViewControllerTests.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2DC20D2C280A071000C7F90A /* ContactList */ = {
+			isa = PBXGroup;
+			children = (
+				2DC20D2D280A074500C7F90A /* ContactListViewControllerTests.swift */,
+				2DC20D2F280A076100C7F90A /* ContactListDataSourceTests.swift */,
+				2DC20D35280A07BD00C7F90A /* ContactCellTests.swift */,
+			);
+			path = ContactList;
+			sourceTree = "<group>";
+		};
+		2DC20D37280A07D500C7F90A /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				2DC20D38280A07E900C7F90A /* ContactListAppTests.swift */,
+			);
+			path = Supports;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,6 +396,7 @@
 			files = (
 				2DB291872614C18B00165913 /* AppDelegate.swift in Sources */,
 				2DB291C72614C20000165913 /* Person.swift in Sources */,
+				2DC20D16280A012500C7F90A /* PersonsManager.swift in Sources */,
 				2DB291892614C18B00165913 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -319,8 +405,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DC20D39280A07E900C7F90A /* ContactListAppTests.swift in Sources */,
+				2DC20D34280A079B00C7F90A /* NewContactViewControllerTests.swift in Sources */,
+				2DC20D36280A07BD00C7F90A /* ContactCellTests.swift in Sources */,
 				2DB291D02614C27900165913 /* PersonTests.swift in Sources */,
-				2DB2919E2614C18C00165913 /* ContactListTests.swift in Sources */,
+				2DC20D32280A077E00C7F90A /* DetailViewControllerTests.swift in Sources */,
+				2DC20D2A280A06BA00C7F90A /* PersonManagerTests.swift in Sources */,
+				2DC20D30280A076100C7F90A /* ContactListDataSourceTests.swift in Sources */,
+				2DC20D2E280A074500C7F90A /* ContactListViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -36,3 +36,14 @@ struct Person {
         date = Date()
     }
 }
+
+// MARK: Equatable
+
+// Equatable по умолчанию сравнивает все св-ва
+// Date соот-нно не равны
+
+extension Person: Equatable {
+    static func == (lhs: Person, rhs: Person) -> Bool {
+        (lhs.name == rhs.name) && (lhs.phone == rhs.phone) // left-hand side
+    }
+}
